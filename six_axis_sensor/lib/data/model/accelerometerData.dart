@@ -9,10 +9,10 @@ part 'accelerometerData.g.dart';
 @freezed
 class AccelerometerData with _$AccelerometerData {
   const factory AccelerometerData({
-    required DateTime time,
-    required double x,
-    required double y,
-    required double z,
+    @Default(0) int time,
+    @Default(0) double x,
+    @Default(0) double y,
+    @Default(0) double z,
   }) = _AccelerometerData;
 
   factory AccelerometerData.fromJson(Map<String, dynamic> json) =>

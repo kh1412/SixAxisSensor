@@ -22,7 +22,7 @@ class AccelerometerChart extends HookConsumerWidget {
       builder: (context, snapshot) {
         if (snapshot.hasData) {
           final accelerometerData = snapshot.data!;
-          final currentTime = DateTime.now().millisecondsSinceEpoch.toDouble();
+          final currentTime = DateTime.now().millisecondsSinceEpoch;
 
           // 過去5秒間のデータのみ保持する
           final fiveSecondsAgo = currentTime - 5000;
@@ -31,23 +31,20 @@ class AccelerometerChart extends HookConsumerWidget {
           spotsZ.removeWhere((spot) => spot.x < fiveSecondsAgo);
 
           // データをリストに追加
-          spotsX.add(FlSpot(
-              accelerometerData.time.millisecondsSinceEpoch.toDouble(),
-              accelerometerData.x));
-          spotsY.add(FlSpot(
-              accelerometerData.time.millisecondsSinceEpoch.toDouble(),
-              accelerometerData.y));
-          spotsZ.add(FlSpot(
-              accelerometerData.time.millisecondsSinceEpoch.toDouble(),
-              accelerometerData.z));
+          spotsX.add(
+              FlSpot(accelerometerData.time.toDouble(), accelerometerData.x));
+          spotsY.add(
+              FlSpot(accelerometerData.time.toDouble(), accelerometerData.y));
+          spotsZ.add(
+              FlSpot(accelerometerData.time.toDouble(), accelerometerData.z));
 
           // グラフの描画
           return Padding(
             padding: const EdgeInsets.all(16.0),
             child: LineChart(
               LineChartData(
-                minX: fiveSecondsAgo, // x軸を5秒前から現在までに設定
-                maxX: currentTime,
+                minX: fiveSecondsAgo.toDouble(), // x軸を5秒前から現在までに設定
+                maxX: currentTime.toDouble(),
                 minY: -10,
                 maxY: 10,
 

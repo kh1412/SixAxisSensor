@@ -49,7 +49,7 @@ class AccelerometerRecorder {
       if (_lastEvent != null) {
         // 加速度データを生成してStreamに流す
         AccelerometerData data = AccelerometerData(
-            time: DateTime.now(),
+            time: DateTime.now().millisecondsSinceEpoch,
             x: _lastEvent!.x,
             y: _lastEvent!.y,
             z: _lastEvent!.z);

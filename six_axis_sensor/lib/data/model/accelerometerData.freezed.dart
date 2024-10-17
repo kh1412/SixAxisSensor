@@ -20,7 +20,7 @@ AccelerometerData _$AccelerometerDataFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$AccelerometerData {
-  DateTime get time => throw _privateConstructorUsedError;
+  int get time => throw _privateConstructorUsedError;
   double get x => throw _privateConstructorUsedError;
   double get y => throw _privateConstructorUsedError;
   double get z => throw _privateConstructorUsedError;
@@ -37,7 +37,7 @@ abstract class $AccelerometerDataCopyWith<$Res> {
           AccelerometerData value, $Res Function(AccelerometerData) then) =
       _$AccelerometerDataCopyWithImpl<$Res, AccelerometerData>;
   @useResult
-  $Res call({DateTime time, double x, double y, double z});
+  $Res call({int time, double x, double y, double z});
 }
 
 /// @nodoc
@@ -62,7 +62,7 @@ class _$AccelerometerDataCopyWithImpl<$Res, $Val extends AccelerometerData>
       time: null == time
           ? _value.time
           : time // ignore: cast_nullable_to_non_nullable
-              as DateTime,
+              as int,
       x: null == x
           ? _value.x
           : x // ignore: cast_nullable_to_non_nullable
@@ -87,7 +87,7 @@ abstract class _$$AccelerometerDataImplCopyWith<$Res>
       __$$AccelerometerDataImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({DateTime time, double x, double y, double z});
+  $Res call({int time, double x, double y, double z});
 }
 
 /// @nodoc
@@ -110,7 +110,7 @@ class __$$AccelerometerDataImplCopyWithImpl<$Res>
       time: null == time
           ? _value.time
           : time // ignore: cast_nullable_to_non_nullable
-              as DateTime,
+              as int,
       x: null == x
           ? _value.x
           : x // ignore: cast_nullable_to_non_nullable
@@ -133,18 +133,22 @@ class _$AccelerometerDataImpl
     with DiagnosticableTreeMixin
     implements _AccelerometerData {
   const _$AccelerometerDataImpl(
-      {required this.time, required this.x, required this.y, required this.z});
+      {this.time = 0, this.x = 0, this.y = 0, this.z = 0});
 
   factory _$AccelerometerDataImpl.fromJson(Map<String, dynamic> json) =>
       _$$AccelerometerDataImplFromJson(json);
 
   @override
-  final DateTime time;
+  @JsonKey()
+  final int time;
   @override
+  @JsonKey()
   final double x;
   @override
+  @JsonKey()
   final double y;
   @override
+  @JsonKey()
   final double z;
 
   @override
@@ -195,16 +199,16 @@ class _$AccelerometerDataImpl
 
 abstract class _AccelerometerData implements AccelerometerData {
   const factory _AccelerometerData(
-      {required final DateTime time,
-      required final double x,
-      required final double y,
-      required final double z}) = _$AccelerometerDataImpl;
+      {final int time,
+      final double x,
+      final double y,
+      final double z}) = _$AccelerometerDataImpl;
 
   factory _AccelerometerData.fromJson(Map<String, dynamic> json) =
       _$AccelerometerDataImpl.fromJson;
 
   @override
-  DateTime get time;
+  int get time;
   @override
   double get x;
   @override
