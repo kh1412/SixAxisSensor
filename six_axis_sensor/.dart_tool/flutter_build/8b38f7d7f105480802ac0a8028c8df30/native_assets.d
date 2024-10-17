@@ -1,0 +1,1 @@
+ /Users/kaito/src/SixAxisSensor/six_axis_sensor/.dart_tool/flutter_build/8b38f7d7f105480802ac0a8028c8df30/native_assets.yaml: 

@@ -37,10 +37,8 @@ class AccelerometerRecorder {
 
   // 加速度センサのデータを監視する
   void _startListening() {
-    accelerometerEvents.listen((AccelerometerEvent event) {
+    accelerometerEventStream().listen((AccelerometerEvent event) {
       _lastEvent = event;
-      print(
-          'Accelerometer Event: x=${event.x}, y=${event.y}, z=${event.z}'); // データの確認
     });
   }
 
@@ -51,7 +49,10 @@ class AccelerometerRecorder {
       if (_lastEvent != null) {
         // 加速度データを生成してStreamに流す
         AccelerometerData data = AccelerometerData(
-            DateTime.now(), _lastEvent!.x, _lastEvent!.y, _lastEvent!.z);
+            time: DateTime.now(),
+            x: _lastEvent!.x,
+            y: _lastEvent!.y,
+            z: _lastEvent!.z);
         _streamController.add(data);
 
         // ファイル保存用のデータとしてバッファに追加
