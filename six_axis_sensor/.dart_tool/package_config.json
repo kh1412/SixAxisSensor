@@ -69,9 +69,9 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/kaito/fvm/versions/3.16.7/packages/flutter",
+      "rootUri": "file:///Users/kaito/fvm/versions/3.24.3/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_hooks",
@@ -93,13 +93,13 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/kaito/fvm/versions/3.16.7/packages/flutter_test",
+      "rootUri": "file:///Users/kaito/fvm/versions/3.24.3/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///Users/kaito/fvm/versions/3.16.7/packages/flutter_web_plugins",
+      "rootUri": "file:///Users/kaito/fvm/versions/3.24.3/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -108,6 +108,24 @@
       "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/hooks_riverpod-2.5.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "leak_tracker",
+      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/leak_tracker-10.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "lints",
@@ -123,27 +141,27 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/matcher-0.12.16",
+      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
+      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/meta-1.10.0",
+      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/meta-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "path_provider",
@@ -219,7 +237,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/kaito/fvm/versions/3.16.7/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/kaito/fvm/versions/3.24.3/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -261,9 +279,9 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/test_api-0.6.1",
+      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/test_api-0.7.2",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "vector_math",
@@ -272,10 +290,10 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "web",
-      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/web-0.3.0",
+      "name": "vm_service",
+      "rootUri": "file:///Users/kaito/.pub-cache/hosted/pub.dev/vm_service-14.2.5",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "xdg_directories",
@@ -290,7 +308,10 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-09-12T11:18:22.124666Z",
+  "generated": "2024-10-17T06:30:50.179486Z",
   "generator": "pub",
-  "generatorVersion": "3.2.4"
+  "generatorVersion": "3.5.3",
+  "flutterRoot": "file:///Users/kaito/fvm/versions/3.24.3",
+  "flutterVersion": "3.24.3",
+  "pubCache": "file:///Users/kaito/.pub-cache"
 }
