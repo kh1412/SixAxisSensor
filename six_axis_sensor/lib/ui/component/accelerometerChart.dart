@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:fl_chart/fl_chart.dart';
-import 'package:six_axis_sensor/model/accelerometerData.dart';
+import 'package:six_axis_sensor/data/model/accelerometerData.dart';
 import 'package:six_axis_sensor/provider/accelerometerProvider.dart';
 
 class AccelerometerChart extends HookConsumerWidget {
