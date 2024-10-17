@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:six_axis_sensor/accelerometerChart.dart';
+import 'package:six_axis_sensor/ui/screen/chart_screen.dart';
 
 void main() {
   runApp(
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AccelerometerChart(), // 加速度グラフ画面を最初に表示
+      home: ChartScreen(),
     );
   }
 }

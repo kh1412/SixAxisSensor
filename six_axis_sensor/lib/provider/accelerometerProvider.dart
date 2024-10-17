@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sensors_plus/sensors_plus.dart';
-import 'package:six_axis_sensor/accelerometerData.dart';
+import 'package:six_axis_sensor/model/accelerometerData.dart';
 
 // 加速度データのプロバイダー
 final accelerometerProvider = StreamProvider<AccelerometerData>((ref) {
