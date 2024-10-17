@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:six_axis_sensor/data/local/base.dart';
+import 'package:six_axis_sensor/data/local/sql/base.dart';
 import 'package:sqflite/sqflite.dart';
 
 class LocalDatabase extends LocalBase {
