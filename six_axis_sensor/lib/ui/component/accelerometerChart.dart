@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:six_axis_sensor/data/model/accelerometerData.dart';
@@ -11,6 +12,7 @@ class AccelerometerChart extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     // accelerometerProvider から加速度データのストリームを取得
     final accelerometerStream = ref.watch(accelerometerProvider.stream);
+    final startTime = DateTime.now().millisecondsSinceEpoch;
 
     // 各軸ごとのスポットリスト
     List<FlSpot> spotsX = [];
@@ -22,21 +24,20 @@ class AccelerometerChart extends HookConsumerWidget {
       builder: (context, snapshot) {
         if (snapshot.hasData) {
           final accelerometerData = snapshot.data!;
-          final currentTime = DateTime.now().millisecondsSinceEpoch;
+          final currentTime =
+              (DateTime.now().millisecondsSinceEpoch - startTime).toDouble() /
+                  1000;
 
           // 過去5秒間のデータのみ保持する
-          final fiveSecondsAgo = currentTime - 5000;
+          final fiveSecondsAgo = currentTime - 5.0;
           spotsX.removeWhere((spot) => spot.x < fiveSecondsAgo);
           spotsY.removeWhere((spot) => spot.x < fiveSecondsAgo);
           spotsZ.removeWhere((spot) => spot.x < fiveSecondsAgo);
 
           // データをリストに追加
-          spotsX.add(
-              FlSpot(accelerometerData.time.toDouble(), accelerometerData.x));
-          spotsY.add(
-              FlSpot(accelerometerData.time.toDouble(), accelerometerData.y));
-          spotsZ.add(
-              FlSpot(accelerometerData.time.toDouble(), accelerometerData.z));
+          spotsX.add(FlSpot(currentTime, accelerometerData.x));
+          spotsY.add(FlSpot(currentTime, accelerometerData.y));
+          spotsZ.add(FlSpot(currentTime, accelerometerData.z));
 
           // グラフの描画
           return Padding(

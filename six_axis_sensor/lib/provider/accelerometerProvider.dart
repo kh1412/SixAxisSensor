@@ -74,7 +74,7 @@ class AccelerometerRecorder {
     try {
       final file = await _getLocalFile();
       await file.writeAsString(
-          _dataBuffer.map((data) => data.toString()).join('\n') + '\n',
+          '${_dataBuffer.map((data) => data.toString()).join('\n')}\n',
           mode: FileMode.append);
       _dataBuffer.clear(); // バッファをクリア
     } catch (e) {
