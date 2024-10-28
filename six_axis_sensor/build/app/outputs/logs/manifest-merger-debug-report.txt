@@ -1,0 +1,236 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:2:5-32:19
+MERGED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/37761f06c319ce1a61a56f34c9339eb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/37761f06c319ce1a61a56f34c9339eb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/287b84d82ccc5b75e46d8844286a76d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/287b84d82ccc5b75e46d8844286a76d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:path_provider_android] /Users/kaito/src/SixAxisSensor/six_axis_sensor/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:sensors_plus] /Users/kaito/src/SixAxisSensor/six_axis_sensor/build/sensors_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite_android] /Users/kaito/src/SixAxisSensor/six_axis_sensor/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/kaito/.gradle/caches/8.9/transforms/191ed3cd38232e4590f8290b6ab65b8d/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/7e407a8ba2f2fe62546fa324dd9e5fba/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/kaito/.gradle/caches/8.9/transforms/e36a147f84f36c1387185544b45588d8/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/acfef0422056c8debbcd6139d34df629/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/493791d907722bd4627aa36c4bf499bb/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1a0d68395f8567b5038965c53005e991/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e339ed29039e1f56f9e0ba0b5bb8d89/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/db8efb8fb664ccfcf253449c5d379d4a/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/ca89c99cdcc5f3832d160cfd6eb453a2/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/00f452d3e3419fe7bf264dffe380444a/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/8b64ef5893e649091b33d0a7f403df75/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/2883d005b2c32f0fd4b1c751093fac8c/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/94164563855d5613a381b54b38043315/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/kaito/.gradle/caches/8.9/transforms/ccc66c3fe105bee0bc3a461097290aaf/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/37761f06c319ce1a61a56f34c9339eb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/65dbbf10a00349fd6b7df4ef558adf40/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/kaito/.gradle/caches/8.9/transforms/39ac6face8b674779ee78dbc1b3c124e/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/287b84d82ccc5b75e46d8844286a76d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/a3ff499253af7402c57aeb0a12db5181/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/01ad14e3a96f87978155a638c0775d5f/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/kaito/.gradle/caches/8.9/transforms/53e036e9d54d4b07fc070ba5acc21fc2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml
+MERGED from [:path_provider_android] /Users/kaito/src/SixAxisSensor/six_axis_sensor/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/kaito/src/SixAxisSensor/six_axis_sensor/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sensors_plus] /Users/kaito/src/SixAxisSensor/six_axis_sensor/build/sensors_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sensors_plus] /Users/kaito/src/SixAxisSensor/six_axis_sensor/build/sensors_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite_android] /Users/kaito/src/SixAxisSensor/six_axis_sensor/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite_android] /Users/kaito/src/SixAxisSensor/six_axis_sensor/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/kaito/.gradle/caches/8.9/transforms/191ed3cd38232e4590f8290b6ab65b8d/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/kaito/.gradle/caches/8.9/transforms/191ed3cd38232e4590f8290b6ab65b8d/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/7e407a8ba2f2fe62546fa324dd9e5fba/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/7e407a8ba2f2fe62546fa324dd9e5fba/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/kaito/.gradle/caches/8.9/transforms/e36a147f84f36c1387185544b45588d8/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/kaito/.gradle/caches/8.9/transforms/e36a147f84f36c1387185544b45588d8/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/acfef0422056c8debbcd6139d34df629/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/acfef0422056c8debbcd6139d34df629/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/493791d907722bd4627aa36c4bf499bb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/493791d907722bd4627aa36c4bf499bb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1a0d68395f8567b5038965c53005e991/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1a0d68395f8567b5038965c53005e991/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e339ed29039e1f56f9e0ba0b5bb8d89/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e339ed29039e1f56f9e0ba0b5bb8d89/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/db8efb8fb664ccfcf253449c5d379d4a/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/db8efb8fb664ccfcf253449c5d379d4a/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/ca89c99cdcc5f3832d160cfd6eb453a2/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/ca89c99cdcc5f3832d160cfd6eb453a2/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/00f452d3e3419fe7bf264dffe380444a/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/00f452d3e3419fe7bf264dffe380444a/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/8b64ef5893e649091b33d0a7f403df75/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/8b64ef5893e649091b33d0a7f403df75/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/2883d005b2c32f0fd4b1c751093fac8c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/2883d005b2c32f0fd4b1c751093fac8c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/94164563855d5613a381b54b38043315/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/94164563855d5613a381b54b38043315/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/kaito/.gradle/caches/8.9/transforms/ccc66c3fe105bee0bc3a461097290aaf/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/kaito/.gradle/caches/8.9/transforms/ccc66c3fe105bee0bc3a461097290aaf/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/37761f06c319ce1a61a56f34c9339eb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/37761f06c319ce1a61a56f34c9339eb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/65dbbf10a00349fd6b7df4ef558adf40/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/65dbbf10a00349fd6b7df4ef558adf40/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/kaito/.gradle/caches/8.9/transforms/39ac6face8b674779ee78dbc1b3c124e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/kaito/.gradle/caches/8.9/transforms/39ac6face8b674779ee78dbc1b3c124e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/287b84d82ccc5b75e46d8844286a76d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/287b84d82ccc5b75e46d8844286a76d3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/a3ff499253af7402c57aeb0a12db5181/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/a3ff499253af7402c57aeb0a12db5181/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/01ad14e3a96f87978155a638c0775d5f/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/kaito/.gradle/caches/8.9/transforms/01ad14e3a96f87978155a638c0775d5f/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/kaito/.gradle/caches/8.9/transforms/53e036e9d54d4b07fc070ba5acc21fc2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/kaito/.gradle/caches/8.9/transforms/53e036e9d54d4b07fc070ba5acc21fc2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/kaito/src/SixAxisSensor/six_axis_sensor/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/kaito/.gradle/caches/8.9/transforms/f9dc71de7e7932905a44324f7fa94987/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.six_axis_sensor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.six_axis_sensor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/kaito/.gradle/caches/8.9/transforms/5bed596747f46c9e432369dde19e97f1/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/37761f06c319ce1a61a56f34c9339eb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kaito/.gradle/caches/8.9/transforms/37761f06c319ce1a61a56f34c9339eb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/kaito/.gradle/caches/8.9/transforms/1e03bd695084941c63ef8b427710ee9d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/kaito/.gradle/caches/8.9/transforms/95350ce4f171a663afd18592e56a2fde/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
