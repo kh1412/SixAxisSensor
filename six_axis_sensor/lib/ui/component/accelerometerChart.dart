@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:six_axis_sensor/data/model/accelerometerData.dart';
@@ -73,11 +72,48 @@ class AccelerometerChart extends HookConsumerWidget {
                   ),
                 ],
                 titlesData: FlTitlesData(
+                  show: true,
+                  //top, rightは非表示
+                  topTitles: const AxisTitles(
+                    sideTitles: SideTitles(showTitles: false),
+                  ),
+                  rightTitles: const AxisTitles(
+                    sideTitles: SideTitles(showTitles: false),
+                  ),
                   leftTitles: AxisTitles(
-                    sideTitles: SideTitles(showTitles: true),
+                    axisNameSize: 5,
+                    sideTitles: SideTitles(
+                      showTitles: true,
+                      reservedSize: 20,
+                      // 軸ラベルのウィジェットをカスタマイズ
+                      getTitlesWidget: (double value, TitleMeta meta) {
+                        return Text(
+                          value.toInt().toString(),
+                          style: const TextStyle(
+                            fontSize: 10, // ここでフォントサイズを設定
+                            color: Colors.black, // 必要に応じて他のスタイルも設定
+                          ),
+                        );
+                      },
+                    ),
+                    drawBelowEverything: false,
                   ),
                   bottomTitles: AxisTitles(
-                    sideTitles: SideTitles(showTitles: true),
+                    axisNameSize: 5,
+                    sideTitles: SideTitles(
+                      showTitles: true,
+                      // 軸ラベルのウィジェットをカスタマイズ
+                      getTitlesWidget: (double value, TitleMeta meta) {
+                        return Text(
+                          value.toStringAsFixed(1), //下一桁まで表示
+                          style: const TextStyle(
+                            fontSize: 10, // ここでフォントサイズを設定
+                            color: Colors.black, // 必要に応じて他のスタイルも設定
+                          ),
+                        );
+                      },
+                    ),
+                    drawBelowEverything: false,
                   ),
                 ),
                 gridData: FlGridData(show: true),

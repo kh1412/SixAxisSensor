@@ -7,10 +7,12 @@ class ChartScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Accelerometer Real-Time Graph')),
-      body: const Center(
-        child: AccelerometerChart(),
+    return const Scaffold(
+      body: Center(
+        child: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 8.0, vertical: 20.0),
+          child: AccelerometerChart(),
+        ),
       ),
     );
   }
